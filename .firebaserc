@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fireship-lessons"
-  }
+    "default": "newfire-d0adf",
+    "newfire": "newfire-d0adf"
+  },
+  "targets": {},
+  "etags": {}
 }
