@@ -1,0 +1,53 @@
+[debug] [2025-04-24T14:50:30.072Z] ----------------------------------------------------------------------
+[debug] [2025-04-24T14:50:30.077Z] Command:       C:\Program Files\nodejs\node.exe C:\CEDT\Y1\GAE\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-24T14:50:30.078Z] CLI Version:   14.2.1
+[debug] [2025-04-24T14:50:30.078Z] Platform:      win32
+[debug] [2025-04-24T14:50:30.078Z] Node Version:  v22.14.0
+[debug] [2025-04-24T14:50:30.079Z] Time:          Thu Apr 24 2025 21:50:30 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-24T14:50:30.079Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-24T14:50:30.477Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-24T14:50:30.478Z] > authorizing via signed-in user (poorinut.frame2547@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-24T14:50:30.497Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T14:50:30.498Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T14:50:30.498Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-24T14:50:30.507Z] [hub] writing locator at C:\Users\poori\AppData\Local\Temp\hub-newfire-d0adf.json
+[debug] [2025-04-24T14:50:30.540Z] Checked if tokens are valid: true, expires at: 1745509131856
+[debug] [2025-04-24T14:50:30.541Z] Checked if tokens are valid: true, expires at: 1745509131856
+[debug] [2025-04-24T14:50:30.542Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/newfire-d0adf/sites 
+[debug] [2025-04-24T14:50:31.407Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/newfire-d0adf/sites 200
+[debug] [2025-04-24T14:50:31.407Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/newfire-d0adf/sites {"sites":[{"name":"projects/newfire-d0adf/sites/newfire-d0adf","defaultUrl":"https://newfire-d0adf.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-24T14:50:31.408Z] Checked if tokens are valid: true, expires at: 1745509131856
+[debug] [2025-04-24T14:50:31.408Z] Checked if tokens are valid: true, expires at: 1745509131856
+[debug] [2025-04-24T14:50:31.408Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/newfire-d0adf/webApps/-/config [none]
+[debug] [2025-04-24T14:50:32.017Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/newfire-d0adf/webApps/-/config 200
+[debug] [2025-04-24T14:50:32.017Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/newfire-d0adf/webApps/-/config {"projectId":"newfire-d0adf","storageBucket":"newfire-d0adf.firebasestorage.app","apiKey":"AIzaSyC1EI9I30i7KDHaeKhJu6XXfFns4rIVPK0","authDomain":"newfire-d0adf.firebaseapp.com","messagingSenderId":"459548245109"}
+[debug] [2025-04-24T14:50:32.022Z] Checked if tokens are valid: true, expires at: 1745509131856
+[debug] [2025-04-24T14:50:32.023Z] Checked if tokens are valid: true, expires at: 1745509131856
+[debug] [2025-04-24T14:50:32.023Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/newfire-d0adf [none]
+[debug] [2025-04-24T14:50:32.617Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/newfire-d0adf 200
+[debug] [2025-04-24T14:50:32.618Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/newfire-d0adf {"projectId":"newfire-d0adf","projectNumber":"459548245109","displayName":"newfire","name":"projects/newfire-d0adf","resources":{"hostingSite":"newfire-d0adf"},"state":"ACTIVE","etag":"1_6b9dcb66-ba7d-479c-b9f6-b0f651acc02b"}
+[info] i  hosting[newfire-d0adf]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[newfire-d0adf]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-24T14:50:32.691Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:14:50:42 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:14:50:42 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:14:50:43 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:14:50:43 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:14:50:43 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:14:50:43 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Apr/2025:14:50:43 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2025:14:50:43 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
